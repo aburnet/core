@@ -34,9 +34,9 @@ class NullDomNode extends \DOMNode implements DomNodeInterface
     /**
      * @inheritdoc
      */
-    public function getAttribute($name)
+    public function getAttribute($name): string
     {
-        return null;
+        return '';
     }
 
     /**
